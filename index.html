@@ -196,14 +196,12 @@ function exportTable(){
   </head>
   <body ng-controller="MyCtrl">
   	<div>
-  		<form action="#">
-  			<input type="number" placeholder="Set latitude" id="latitude" value="10.9543098">
-			<input type="number" placeholder="Set longitude" id="longitude" value="-74.8009842">
-			<input type="number" placeholder="Radiud" id="radius" value="50000" min="500" max="50000">
-			<input type="text" placeholder="Type" id="type" value="bar">
-			<input type="submit" value="Select target" onclick="setTarget()">
-			<input type="submit" value="Export to Excel" onclick="exportTable()">
-  		</form>
+  		<input type="number" placeholder="Set latitude" id="latitude" value="10.9543098">
+      <input type="number" placeholder="Set longitude" id="longitude" value="-74.8009842">
+      <input type="number" placeholder="Radiud" id="radius" value="50000" min="500" max="50000">
+      <input type="text" placeholder="Type" id="type" value="bar">
+      <input type="submit" value="Select target" onclick="setTarget()">
+      <input type="submit" value="Export to Excel" onclick="exportTable()">
   	</div>
     <div id="map"></div>
     <div id="right-panel">
